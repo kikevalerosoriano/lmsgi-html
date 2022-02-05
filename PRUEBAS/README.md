@@ -1,1 +1,0 @@
-# Primer Repositori. LSMGI DAW.
