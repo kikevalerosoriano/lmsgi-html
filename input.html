@@ -1,0 +1,70 @@
+<html>
+    <head>
+        <title>Pràctica Input</title>
+        <meta charset = "UTF-8"> <!--Para que acepte acentos y demas caracteres especiales-->
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!--Hace que se adapte la web al tamaño de pantalla -->
+        <link rel = "stylesheet" href = "styles.css">
+        <script src = "script.js"></script>
+    </head>
+    <body>
+        <h1>Pràctica Inputs</h1>
+        <p>Exemple d´una llegenda de formulari.</p>
+        <ul>
+            <li>
+                <p>Primer formulari.</p>
+                <form>
+                    <label for = "iname">Nom:</label> 
+                    <input id = "iname" type = "text" name = "name" placeholder = "Name">
+                    <br>
+                    <label for = "iemal">Email:</label>
+                    <input id = "iemal" type = "email" name = "email" placeholder = "Email" autocomplete = "off">
+                    <br>
+                    <label for = "iboto">Botó</label>
+                    <input id = "Iboto" type = "button" name = "boto" value = "Button">
+                    <br>
+                    <label for = "icheck">Un sol checkbox</label>
+                    <input id = "icheck" type = "checkbox" name = "checkbox">
+                    <br>
+                    <fieldset>
+                        <legend>Grup de checkbox</legend>
+                            <label for = "icheck1">Checkbox1</label>
+                            <input id = "icheck1" type = "checkbox" name = "Checkbox1">
+                            <label for = "icheck2">Checkbox2</label>
+                            <input id = "icheck2" type = "checkbox" name = "Checkbox2">
+                            <label for = "icheck3">Checkbox3</label>
+                            <input id = "icheck3" type = "checkbox" name = "Checkbox3">
+                            <label for = "icheck4">Checkbox4</label>
+                            <input id = "icheck4" type = "checkbox" name = "Checkbox4">
+                    </fieldset>               
+                </form>
+            </li>  
+            <br>
+            <li>
+                <p>Segon formulari.</p>
+                <ul>
+                    <li>
+                        <form>
+                            <label for = "icolor">Color:</label>
+                            <input id = "icolor" type = "color" name = "color">
+                            <br>
+                            <label for = "idata">Data:</label> 
+                            <input id = "idata" type = "date" name = "data">
+                            <br>
+                            <label for = "idatalocal">Data, Hora (Local):</label> 
+                            <input id = "idatalocal" type = "datetime-local" name = "datalocal">
+                            <br>
+                            <label for = "ifile">Fitxer:</label> 
+                            <input id = "ifile" type = "file" name = "file">
+                            <br>
+                        </form>
+                    </li>
+                    <li>
+                        <form>
+                            
+                        </form>
+                    </li>
+                </ul>
+            </li>
+        </ul>
+    </body>
+</html>
