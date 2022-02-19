@@ -1,70 +1,156 @@
 <html>
-    <head>
-        <title>Pràctica Input</title>
-        <meta charset = "UTF-8"> <!--Para que acepte acentos y demas caracteres especiales-->
-        <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!--Hace que se adapte la web al tamaño de pantalla -->
-        <link rel = "stylesheet" href = "styles.css">
-        <script src = "script.js"></script>
-    </head>
-    <body>
-        <h1>Pràctica Inputs</h1>
-        <p>Exemple d´una llegenda de formulari.</p>
-        <ul>
-            <li>
-                <p>Primer formulari.</p>
-                <form>
-                    <label for = "iname">Nom:</label> 
-                    <input id = "iname" type = "text" name = "name" placeholder = "Name">
-                    <br>
-                    <label for = "iemal">Email:</label>
-                    <input id = "iemal" type = "email" name = "email" placeholder = "Email" autocomplete = "off">
-                    <br>
-                    <label for = "iboto">Botó</label>
-                    <input id = "Iboto" type = "button" name = "boto" value = "Button">
-                    <br>
-                    <label for = "icheck">Un sol checkbox</label>
-                    <input id = "icheck" type = "checkbox" name = "checkbox">
-                    <br>
-                    <fieldset>
-                        <legend>Grup de checkbox</legend>
-                            <label for = "icheck1">Checkbox1</label>
-                            <input id = "icheck1" type = "checkbox" name = "Checkbox1">
-                            <label for = "icheck2">Checkbox2</label>
-                            <input id = "icheck2" type = "checkbox" name = "Checkbox2">
-                            <label for = "icheck3">Checkbox3</label>
-                            <input id = "icheck3" type = "checkbox" name = "Checkbox3">
-                            <label for = "icheck4">Checkbox4</label>
-                            <input id = "icheck4" type = "checkbox" name = "Checkbox4">
-                    </fieldset>               
-                </form>
-            </li>  
-            <br>
-            <li>
-                <p>Segon formulari.</p>
-                <ul>
-                    <li>
-                        <form>
-                            <label for = "icolor">Color:</label>
-                            <input id = "icolor" type = "color" name = "color">
-                            <br>
-                            <label for = "idata">Data:</label> 
-                            <input id = "idata" type = "date" name = "data">
-                            <br>
-                            <label for = "idatalocal">Data, Hora (Local):</label> 
-                            <input id = "idatalocal" type = "datetime-local" name = "datalocal">
-                            <br>
-                            <label for = "ifile">Fitxer:</label> 
-                            <input id = "ifile" type = "file" name = "file">
-                            <br>
-                        </form>
-                    </li>
-                    <li>
-                        <form>
-                            
-                        </form>
-                    </li>
-                </ul>
-            </li>
-        </ul>
-    </body>
+
+<head>
+    <title>Pràctica Input</title>
+    <meta charset="UTF-8">
+    <!--Para que acepte acentos y demas caracteres especiales-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--Hace que se adapte la web al tamaño de pantalla -->
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js"></script>
+</head>
+
+<body>
+    <h1>Pràctica Inputs</h1>
+    <p>Exemple d´una llegenda de formulari.</p>
+    <ul>
+        <li>
+            <p>Primer formulari.</p>
+            <form>
+                <label for="iname">Nom:</label>
+                <input id="iname" type="text" name="name" placeholder="Name">
+                <br>
+                <label for="iemal">Email:</label>
+                <input id="iemal" type="email" name="email" placeholder="Email" autocomplete="off">
+                <br>
+                <label for="iboto">Botó</label>
+                <input id="Iboto" type="button" name="boto" value="Button">
+                <br>
+                <label for="icheck">Un sol checkbox</label>
+                <input id="icheck" type="checkbox" name="checkbox">
+                <br>
+                <fieldset>
+                    <legend>Grup de checkbox</legend>
+                    <label for="icheck1">Checkbox1</label>
+                    <input id="icheck1" type="checkbox" name="Checkbox1">
+                    <label for="icheck2">Checkbox2</label>
+                    <input id="icheck2" type="checkbox" name="Checkbox2">
+                    <label for="icheck3">Checkbox3</label>
+                    <input id="icheck3" type="checkbox" name="Checkbox3">
+                    <label for="icheck4">Checkbox4</label>
+                    <input id="icheck4" type="checkbox" name="Checkbox4">
+                </fieldset>
+            </form>
+        </li>
+        <br>
+        <li>
+            <p>Segon formulari.</p>
+            <form>
+                <label for="icolor">Color:</label>
+                <input id="icolor" type="color" name="color">
+                <br>
+                <label for="idata">Data:</label>
+                <input id="idata" type="date" name="data">
+                <br>
+                <label for="idatalocal">Data, Hora (Local):</label>
+                <input id="idatalocal" type="datetime-local" name="datalocal">
+                <br>
+                <label for="ifile">Fitxer:</label>
+                <input id="ifile" type="file" name="file">
+                <br>
+            </form>
+        </li>
+        <br>
+        <li>
+            <p>Tercer formulari.</p>
+            <form>
+                <label for = "inumber">Numero:</label>
+                <input id = "inumber" type = "number" name = "number">
+                <br>
+                <label for = "ipassword">Contraseña:</label>
+                <input id = "ipassword" type = "password" name = "password">
+                <br>
+                <label for = "iradio">Un radio:</label>
+                <input id = "iradio" type = "radio" name = "radio">
+                <fieldset>
+                    <legend>Grup de Radios:</legend>
+                    <label for="iradio1">Radio1</label>
+                    <input id="iradio1" type="radio" name="gruporadio">
+                    <label for="iradio2">Radio2</label>
+                    <input id="iradio2" type="radio" name="gruporadio">
+                    <label for="iradio3">Radio3</label>
+                    <input id="iradio3" type="radio" name="gruporadio">
+                    <label for="iradio4">Radio4</label>
+                    <input id="iradio4" type="radio" name="gruporadio">
+                </fieldset>
+            </form>
+        </li>
+        <br>
+        <li>
+            <p>Cuart formulari.</p>
+            <form>
+                <label for = "irange">Range:</label>
+                <input id = "irange" type = "range" name = "range" min = "0" maxlength = "5" step = "1">
+                <br>
+                <label for = "ireset">Reset:</label>
+                <input id = "ireset" type = "reset" name = "reset">
+                <br>
+                <label for = "itiempo">Temps:</label>
+                <input id = "itiempo" type = "time" name = "time">
+                <br>
+                <label for = "isearch">Cerca:</label>
+                <input id = "isearch" type = "search" name = "search">
+                <br>
+                <label for = "itel">Tel:</label>
+                <input id = "itel" type = "tel" name = "tel" pattern = "[0-9]{9}">
+                <br>
+                <label for = "itext">Text:</label>
+                <input id = "itext" type = "text" name = "text">
+                <br>
+                <label for = "iurl">Url:</label>
+                <input id = "iurl" type = "url" name = "url">
+                <br>
+                <input type = "button" value = "Açò és un botó" name = "button">
+                <br>
+                <label for = "iselection1">Selec 1:</label>
+                <select id = "iselection1" name = "Test1"  valeu = "Test1">
+                    <option value = "Test1">Test1</option>
+                    <option value = "Test2">Test2</option>
+                    <option value = "Test3">Test3</option>
+                    <option value = "Test4">Test4</option>
+                </select>
+                <br>
+                <label for = "iselection2">Selec 2:</label>
+                <select id = "iselection2" name = "Test2">
+                    <option valeu = "Test5">Test5</option>
+                    <option valeu = "Test6">Test6</option>
+                    <option valeu = "Test7">Test7</option>
+                    <option valeu = "Test8">Test8</option>
+                </select>
+                <br>
+                <label for = "iselectionmultiple">Select Multiple:</label>
+                <select id = "iselectionmultiple" name = "TestMultiple">
+                    <optgroup label = "First Group">
+                        <option valeu = "Test">Test</option>
+                        <option valeu = "Test">Test</option>
+                    </optgroup>
+                    <optgroup label = "Second Group">
+                        <option valeu = "Test">Test</option>
+                        <option valeu = "Test">Test</option>
+                    </optgroup>
+                    <optgroup label = "Third Group">
+                        <option valeu = "Test">Test</option>
+                        <option valeu = "Test">Test</option>
+                    </optgroup>
+                </select>
+                <br>
+                <label for = "itextarea">Un textarea:</label>
+                <textarea id = "itextarea" name = "textarea" rows = "4" cols = "50" placeholder = "Escriu el que vulgues"></textarea> 
+                <br>
+                <input type = "submit" name = "submit">
+            </form>
+        </li>
+    </ul>
+</body>
+
 </html>
