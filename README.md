@@ -1,1 +1,1 @@
-# Exercici Pokemons.
+# Pràctiques HTML.
