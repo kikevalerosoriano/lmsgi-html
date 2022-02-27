@@ -1,0 +1,11 @@
+.contenedor-tabla{
+    display: table;
+}
+
+.contenedor-tabla__fila{
+    display: table-row;
+}
+
+.contenedor-tabla__fila-columna{
+    display: table-cell;
+}
