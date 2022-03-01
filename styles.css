@@ -34,17 +34,17 @@ li a:hover{
     background-color: black;
 }
 
-.contenedor-tabla__fila{
-    margin: 30px 30px 30px 30px;
+.contenedor-tabla{
+    margin: auto;
 }
     
 .contenedor-tabla__fila-columna{
     background-color: gray;
-    display: inline-block;
+    display: inline-table;
     box-sizing: border-box;
-    margin: 20px 10px;
     height: 205px;
     width: 270px;
+    margin: 10px 10px;
     border-radius: 10px;
     border: 3px solid #000;
 }
@@ -72,7 +72,115 @@ h3{
     margin-top: 5px;
 }
 
+#hypno{
+    display: block;
+    height: 15px;
+    width: 70px;
+    margin-top: 30px;
+    margin-left: 5px; 
+    background-color: rgb(26, 192, 243);
+}
+
+#lapras{
+    display: inline-block;
+    height: 15px;
+    width: 70px;
+    margin-top: 30px;
+    margin-left: 5px; 
+    background-color: rgb(250, 139, 244);
+}
+
+#lapras1{
+    display: inline-block;
+    height: 15px;
+    width: 70px;
+    margin-top: 25px;
+    background-color: rgb(213, 228, 126);
+}
+
+#magmar{
+    display: block;
+    height: 15px;
+    width: 70px;
+    margin-top: 30px;
+    margin-left: 5px; 
+    background-color: rgb(221, 109, 109);
+}
+
+#mew{
+    display: block;
+    height: 15px;
+    width: 70px;
+    margin-top: 30px;
+    margin-left: 5px; 
+    background-color: rgb(125, 129, 131);
+}
+
+#mewtwo{
+    display: block;
+    height: 15px;
+    width: 70px;
+    margin-top: 30px;
+    margin-left: 5px; 
+    background-color: rgb(26, 192, 243);
+}
+
+#porygon{
+    display: block;
+    height: 15px;
+    width: 70px;
+    margin-top: 30px;
+    margin-left: 5px; 
+    background-color: rgb(72, 15, 206);
+}
+
+#snorlax{
+    display: block;
+    height: 15px;
+    width: 70px;
+    margin-top: 30px;
+    margin-left: 5px; 
+    background-color: rgb(158, 13, 102);
+}
+
+#squirtle{
+    display: block;
+    height: 15px;
+    width: 70px;
+    margin-top: 30px;
+    margin-left: 5px; 
+    background-color: rgb(243, 142, 26);
+}
+
+#wartortle{
+    display: block;
+    height: 15px;
+    width: 70px;
+    margin-top: 30px;
+    margin-left: 5px; 
+    background-color: rgb(106, 243, 26);
+}
+
+.laprasp{
+    color: black;
+    display: inline;
+    font-size: 10px;
+    text-align: center;
+    padding-left: 27px;
+}
+
 p{
+    color: black;
+    display: block;
+    font-size: 10px;
+    text-align: center;
+}
+
+.contenedor-tabla__fila-columna:hover{
+    background-color: black;
+}
+
+/*p{
     color: black;
     display: inline-block;
     text-align: left;
@@ -80,9 +188,10 @@ p{
     padding: 4px 20px 4px 20px; 
     background-color: rgb(26, 192, 243);
     margin-top: 25px;
-}
+}*/
 
-.contenedor-pokemon-1-6-9{
+
+/*.contenedor-pokemon-1-6-9{
     background-color: pink;
     margin-left: 5px;
 }
@@ -95,11 +204,8 @@ p{
 .contenedor-pokemon-3-5-7{
     background-color: purple;
     margin-left: 5px;
-}
+}*/
 
-.contenedor-tabla__fila-columna:hover{
-    background-color: black;
-}
 
     
 
